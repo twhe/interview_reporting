@@ -40,7 +40,7 @@ function App() {
   if (error) {
     return (
       <div className="message">
-        <div>Opps, that didn't work; try reloading the page</div>
+        <div>Oops, that didn't work; try reloading the page</div>
       </div>
     )
   }
