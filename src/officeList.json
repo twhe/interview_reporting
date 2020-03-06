@@ -1,0 +1,65 @@
+[
+  {
+    "office": "The Shard",
+    "address_1": "Level 24 The Shard",
+    "address_2": "32 London Bridge St",
+    "city": "London",
+    "postcode": "SE1 9SG",
+    "lonlat": [-0.087651, 51.504962]
+  },
+  {
+    "office": "Manchester",
+    "address_1": "Digital World Centre",
+    "address_2": "1 Lowry Plaza",
+    "address_3": "The Quays",
+    "city": "Manchester",
+    "postcode": "M50 3UB",
+    "lonlat": [-2.294541, 53.471322]
+  },
+  {
+    "office": "Guidford",
+    "address_1": "1 Farnham Road",
+    "city": "Guildford",
+    "postcode": "GU2 4RG",
+    "lonlat": [-0.581271, 51.235806]
+  },
+  {
+    "office": "Liverpool Street",
+    "address_1": "50 Liverpool Street",
+    "city": "London",
+    "postcode": "EC2M 7PR",
+    "lonlat": [-0.082295, 51.517545]
+  },
+  {
+    "office": "South London",
+    "address_1": "Level 6  Peckham Levels",
+    "address_2": "95A Rye Lane",
+    "city": "London",
+    "postcode": "SE15 4ST",
+    "lonlat": [-0.068213, 51.469906]
+  },
+  {
+    "office": "Birmingham",
+    "address_1": "4200 Waterside Centre",
+    "address_2": "Solihull Parkway",
+    "city": "Birmingham",
+    "postcode": "B37 7YN",
+    "lonlat": [-1.720811, 52.468006]
+  },
+  {
+    "office": "Exeter",
+    "address_1": "Emperor Way",
+    "address_2": "Exeter Business Park",
+    "city": "Exeter",
+    "postcode": "EX1 3QS",
+    "lonlat": [-3.471697, 50.727751]
+  },
+  {
+    "office": "Mayfair",
+    "address_1": "Green Park House",
+    "address_2": "15 Stratton Street",
+    "city": "London",
+    "postcode": "W1J 8LQ",
+    "lonlat": [-0.144529, 51.507683]
+  }
+]

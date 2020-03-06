@@ -1,9 +1,13 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent, waitForElement, wait } from '@testing-library/react';
 import App from './App';
+import { getAllInterviewEvents } from './Api/Api'
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+jest.mock('./Api/Api')
+
+test('Renders page', async () => {
+  getAllInterviewEvents.mockResolvedValue([])
+  const { getByText } = render(<App />)
+  await wait(() => document.querySelector('.leaflet-container'))
+  expect(document.querySelector('.leaflet-container')).toBeInTheDocument()
+})
